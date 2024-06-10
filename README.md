@@ -15,7 +15,7 @@ This repository contains a Telegram bot designed to perform DDoS attacks. The bo
 
 - Python 3.x
 - `telebot` library
-- Telegram Bot Token
+- Telegram Bot Token (You Can Use Botfather)
 
 ## Getting Started
 
@@ -31,7 +31,9 @@ This repository contains a Telegram bot designed to perform DDoS attacks. The bo
 2. Install the required libraries:
 
    ```sh
-   pip install pyTelegramBotAPI
+   pip install telebot
+   pip install flask
+   pip install aiogram
    ```
 
 ### Configuration
@@ -55,7 +57,7 @@ This repository contains a Telegram bot designed to perform DDoS attacks. The bo
 1. Run the bot:
 
    ```sh
-   python ddos_bot.py
+   python watcher.py
    ```
 
 2. Interact with the bot on Telegram using the available commands.
