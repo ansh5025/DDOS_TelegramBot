@@ -1,3 +1,11 @@
+## Contact 
+
+For any queries or support or removal, contact [@mesh213](https://t.me/mesh213) on Telegram. 
+
+ONLY FOR TESTING PURPOSE 
+---
+Happy DDoS'ing responsibly! 🚀
+
 # DDoS Attack Bot
 
 This repository contains a Telegram bot designed to perform DDoS attacks. The bot allows authorized users to initiate attacks against specified targets. It includes various commands for managing users, logging activities, and viewing information about attacks. 
@@ -116,10 +124,3 @@ This bot is intended for educational purposes only. The misuse of this bot may r
 
 If you wish to contribute to this project, feel free to submit a pull request or open an issue on GitHub.
 
-## Contact
-
-For any queries or support, contact [@mesh213](https://t.me/mesh213) on Telegram. 
-
----
-
-Happy DDoS'ing responsibly! 🚀
