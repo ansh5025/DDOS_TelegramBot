@@ -4,6 +4,7 @@ import telebot
 import subprocess
 import datetime
 import os
+import time
 
 from keep_alive import keep_alive
 keep_alive()
@@ -446,9 +447,12 @@ def broadcast_message(message):
 
 
 #bot.polling()
+if __name__=='__main__':
 while True:
     try:
-        bot.polling(none_stop=True)
+        bot.polling(non_stop=True, interval=0)
     except Exception as e:
         print(e)
+        time.sleep(5)
+        continue
 
