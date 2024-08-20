@@ -447,12 +447,12 @@ def broadcast_message(message):
 
 
 #bot.polling()
-if __name__=='__main__':
-while True:
-    try:
-        bot.polling(non_stop=True, interval=0)
-    except Exception as e:
-        print(e)
-        time.sleep(5)
-        continue
+if __name__ == '__main__':
+    while True:
+        try:
+            bot.polling(non_stop=True, interval=0)
+        except Exception as e:
+            print(e)
+            time.sleep(5)
+            continue
 
