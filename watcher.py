@@ -48,7 +48,7 @@ async def main():
             await asyncio.sleep(5)
         
         logging.warning("Bot process terminated. Restarting in 10 seconds...")
-        await notify_admin("⚠️ The bot has crashed and will be restarted in 10 seconds.")
+        await notify_admin("⚠️ The bot has crashed and will be auto restarted in 10 seconds.")
         restart_count += 1
         await asyncio.sleep(10)
         
